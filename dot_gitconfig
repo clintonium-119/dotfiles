@@ -17,7 +17,6 @@
   type = cat-file -t
   undo-commit = reset --soft HEAD^
   upstream = !git log --oneline --no-merges HEAD..${1-$(git branch -lvv | perl -ne '/^\\*.*\\[(.*?)\\]/ and print "$1\n"')}
-
 [push]
   default = simple
 [core]

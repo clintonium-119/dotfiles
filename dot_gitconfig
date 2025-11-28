@@ -1,0 +1,29 @@
+[user]
+	email = clint.beacock@gmail.com
+	name = clintonium-119
+[alias]
+  amend = commit --amend --no-edit
+  branches = "!sh -c \"git checkout $(git for-each-ref --sort='-authordate:iso8601' --format=' %(authordate:relative)%09%(refname:short)' refs/heads | pick | cut -f2)\""
+  changelog = !git log --oneline --no-merges ${1-$(git describe --abbrev=0)}..HEAD
+  dump = cat-file -p
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  hist-raw = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=raw
+  local = !git log --oneline --no-merges ${1-$(git branch -lvv | perl -ne '/^\\*.*\\[(.*?)\\]/ and print "$1\n"')}..HEAD
+  quicklog = log --oneline --decorate -10 --pretty=format:'%C(yellow)%h%C(reset)%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  quicklog-long = log --oneline --decorate --pretty=format:'%C(yellow)%h%C(reset)%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  recap = !git log --all --oneline --no-merges --author=${1-$(git config user.email)}
+  stats = !git shortlog -sn
+  today = !git log --all --since=00:00:00 --oneline --no-merges --author=${1-$(git config user.email)}
+  type = cat-file -t
+  undo-commit = reset --soft HEAD^
+  upstream = !git log --oneline --no-merges HEAD..${1-$(git branch -lvv | perl -ne '/^\\*.*\\[(.*?)\\]/ and print "$1\n"')}
+
+[push]
+  default = simple
+[core]
+  excludesfile = ~/.gitignore_global
+  autocrlf = input
+[http]
+	sslVerify = true
+[pull]
+	rebase = false

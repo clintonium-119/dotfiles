@@ -1,0 +1,120 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # But matches can also be dynamic:
+
+  # Print the current date
+  - trigger: "d;i"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%M-%d"
+
+  # Print cocobolo
+  - trigger: "c;c"
+    replace: "cocobolo"
+
+  # Print personal email
+  - trigger: "e;i"
+    replace: "clint.beacock@gmail.com"
+
+  # Print personal email with + cursor
+  - trigger: "e;p"
+    replace: "clint.beacock+$|$@gmail.com"
+
+  # Print tidepool email
+  - trigger: "e;ti"
+    replace: "clint@tidepool.org"
+
+  # Print tidepool-robot email
+  - trigger: "e;tr"
+    replace: "clint@tidepool-robot.org"
+
+  # Print heather email
+  - trigger: "e;h"
+    replace: "hmbeacock@gmail.com"
+
+  # Print address
+  - trigger: "a;i"
+    replace: "253 Sloss Crt\nNewmarket, ON\nL3X 0G1"
+
+  # Print name
+  - trigger: "n;i"
+    replace: "Clint Beacock"
+
+  # Print first name
+  - trigger: "n;f"
+    replace: "Clint"
+
+  # Print last name
+  - trigger: "n;l"
+    replace: "Beacock"
+
+  # Print phone
+  - trigger: "p;i"
+    replace: "647-447-1587"
+
+  # Print home phone
+  - trigger: "p;h"
+    replace: "905-235-4222"
+
+  # Jira see done criteria
+  - trigger: "j;dc"
+    replace: "See Done Criteria"
+
+  # Jira Ready for code review
+  - trigger: "j;rc"
+    replace: "Ready for code review"
+
+  # Jira Ready for design review
+  - trigger: "j;rd"
+    replace: "Ready for design review"
+
+  # Jira Ready for product review
+  - trigger: "j;rp"
+    replace: "Ready for product review"
+
+  # Jira Ready for testing int
+  - trigger: "j;rti"
+    replace: "Ready for testing on INT"
+
+  # Jira Ready for testing dev
+  - trigger: "j;rtd"
+    replace: "Ready for testing on DEV"
+
+  # Jira Ready for testing qa1
+  - trigger: "j;rt1"
+    replace: "Ready for testing on QA1"
+
+  # Jira Ready for testing qa2
+  - trigger: "j;rt2"
+    replace: "Ready for testing on QA2"
+
+  # Jira Ready for testing qa3
+  - trigger: "j;rt3"
+    replace: "Ready for testing on QA3"
+
+  # Jira Ready for testing qa4
+  - trigger: "j;rt4"
+    replace: "Ready for testing on QA4"
+
+  # Jira Ready for testing qa5
+  - trigger: "j;rt5"
+    replace: "Ready for testing on QA5"
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/

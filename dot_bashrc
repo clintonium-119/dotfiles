@@ -1,0 +1,70 @@
+# If not running interactively, don't do anything (leave this at the top of this file)
+[[ $- != *i* ]] && return
+
+# All the default Omarchy aliases and functions
+# (don't mess with these directly, just overwrite them here!)
+source ~/.local/share/omarchy/default/bash/rc
+
+# Add your own exports, aliases, and functions here.
+#
+# Make an alias for invoking commands you use constantly
+# alias p='python'
+export GITHUB_USERNAME="clintonium-119"
+
+# Start ssh-agent if not already running
+if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+    eval "$(ssh-agent -s)"
+fi
+
+# Add SSH key if not already added
+SSH_KEY="$HOME/.ssh/id_ed25519"
+
+if ! ssh-add -l | grep -q "$(ssh-keygen -lf "$SSH_KEY" | awk '{print $2}')"; then
+    ssh-add "$SSH_KEY" 2>/dev/null
+fi
+
+. "$HOME/.local/share/../bin/env"
+
+# Define aliases.
+alias tree='tree -a -I .git'
+alias pbcopy='xclip -sel clip'
+
+# Add flags to existing aliases.
+alias ls="${aliases[ls]:-ls} -A"
+
+# Local Tidepool stack
+alias tp='tidepool'
+alias tt='tiltronic'
+export KUBECONFIG="$HOME/.kube/config"
+export PATH=$PATH:"$HOME/src/github/tidepool-org/tiltronic/bin"
+export TIDEPOOL_DOCKER_PLATFORM_CLIENT_DIR="$HOME/src/github/tidepool-org/platform-client"
+export TIDEPOOL_DOCKER_VIZ_DIR="$HOME/src/github/tidepool-org/viz"
+export TIDEPOOL_DOCKER_TIDELINE_DIR="$HOME/src/github/tidepool-org/tideline"
+
+# Git
+export GITHUB_USERNAME="clintionium-119"
+export GIT_SSL_NO_VERIFY=true
+alias gs='git status'
+alias ga='git add'
+alias gb='git branch'
+alias gbs='git branches'
+alias gbn='git rev-parse --abbrev-ref HEAD'
+alias gbnc="git rev-parse --abbrev-ref HEAD | tr -d '\n' | pbcopy"
+alias gt='git tag'
+alias gtl='git tag -l --sort=v:refname | tail -n10'
+alias gc='git commit'
+alias gd='git diff'
+alias gds='git diff --staged'
+alias gdsw='git diff -w --staged'
+alias gdw='git diff -w'
+alias ghi='git hist'
+alias gha='git hist --all'
+alias gco='git checkout'
+alias gm='git merge'
+alias gp='git push'
+alias gpt='git push --tags'
+alias gpl='git pull'
+alias gf='git fetch'
+alias gk='gitk --all&'
+alias gx='gitx --all'
+alias gtip='git-tip'

@@ -175,3 +175,5 @@ alias vpin="bash $HOME/VPinStudio/VPin-Studio-linux_x64.sh"
 
 # Pico
 export PICO_SDK_PATH="$HOME/src/github/raspberrypi/pico-sdk"
+
+. "$HOME/.local/share/../bin/env"

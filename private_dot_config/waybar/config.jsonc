@@ -141,9 +141,9 @@
   },
   "custom/asus": {
      "format": "🗲 {} ",
-     "exec": "asusctl profile -p | grep '^Active profile is' | cut -d' ' -f4-",
+     "exec": "powerprofilesctl get",
      "interval": 5,
-     "on-click": "~/rog-quick.sh",
+     "on-click": "omarchy-menu power",
      "tooltip": true,
      "tooltip-format": "Current Power Profile: {}"
   }

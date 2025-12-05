@@ -10,20 +10,24 @@ source ~/.local/share/omarchy/default/bash/rc
 # Make an alias for invoking commands you use constantly
 # alias p='python'
 export GITHUB_USERNAME="clintonium-119"
-
-# Start ssh-agent if not already running
-if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-    eval "$(ssh-agent -s)"
-fi
-
-# Add SSH key if not already added
-SSH_KEY="$HOME/.ssh/id_ed25519"
-
-if ! ssh-add -l | grep -q "$(ssh-keygen -lf "$SSH_KEY" | awk '{print $2}')"; then
-    ssh-add "$SSH_KEY" 2>/dev/null
-fi
-
 . "$HOME/.local/share/../bin/env"
+
+# Function to start the SSH agent
+start_ssh_agent() {
+    eval "$(ssh-agent -s)"
+    ssh-add ~/.ssh/id_rsa # <-- Change 'id_rsa' to your key's actual name if different (e.g., id_ed25519)
+    echo "SSH agent started and key added."
+}
+
+# Check if SSH_AUTH_SOCK is set and the agent is running
+if [ -z "$SSH_AUTH_SOCK" ] || [ ! -S "$SSH_AUTH_SOCK" ]; then
+    start_ssh_agent
+else
+    # Check if the correct key is already loaded
+    if ! ssh-add -l | grep -q "$(ssh-keygen -lf ~/.ssh/id_rsa | awk '{print $2}')"; then
+        ssh-add ~/.ssh/id_rsa # Add key if agent is running but key is missing
+    fi
+fi
 
 # Define aliases.
 alias tree='tree -a -I .git'

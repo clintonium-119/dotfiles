@@ -15,7 +15,7 @@ export GITHUB_USERNAME="clintonium-119"
 # Function to start the SSH agent
 start_ssh_agent() {
     eval "$(ssh-agent -s)"
-    ssh-add ~/.ssh/id_rsa # <-- Change 'id_rsa' to your key's actual name if different (e.g., id_ed25519)
+    ssh-add ~/.ssh/id_ed25519 # <-- Change 'id_ed25519' to your key's actual name if different (e.g., id_ed25519)
     echo "SSH agent started and key added."
 }
 
@@ -24,8 +24,8 @@ if [ -z "$SSH_AUTH_SOCK" ] || [ ! -S "$SSH_AUTH_SOCK" ]; then
     start_ssh_agent
 else
     # Check if the correct key is already loaded
-    if ! ssh-add -l | grep -q "$(ssh-keygen -lf ~/.ssh/id_rsa | awk '{print $2}')"; then
-        ssh-add ~/.ssh/id_rsa # Add key if agent is running but key is missing
+    if ! ssh-add -l | grep -q "$(ssh-keygen -lf ~/.ssh/id_ed25519 | awk '{print $2}')"; then
+        ssh-add ~/.ssh/id_ed25519 # Add key if agent is running but key is missing
     fi
 fi
 

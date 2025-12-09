@@ -168,6 +168,19 @@ keybinds clear-defaults=true {
         bind "Alt Super o" { MoveTab "right"; }
         bind "Alt p" { TogglePaneInGroup; }
         bind "Alt Shift p" { ToggleGroupMarking; }
+
+        // Simple pane navigation - zellij-nav.nvim handles nvim-to-zellij navigation
+        // These only trigger when nvim is NOT focused (nvim intercepts Ctrl+hjkl first)
+        bind "Ctrl h" { MoveFocusOrTab "left"; }
+        bind "Ctrl j" { MoveFocus "down"; }
+        bind "Ctrl k" { MoveFocus "up"; }
+        bind "Ctrl l" { MoveFocusOrTab "right"; }
+
+        // Simple resize bindings
+        bind "Alt h" { Resize "Increase left"; }
+        bind "Alt j" { Resize "Increase down"; }
+        bind "Alt k" { Resize "Increase up"; }
+        bind "Alt l" { Resize "Increase right"; }
     }
     shared_except "locked" "renametab" "renamepane" {
         bind "Ctrl g" { SwitchToMode "locked"; }
@@ -268,7 +281,7 @@ web_client {
 // Choose the theme that is specified in the themes section.
 // Default: default
 // 
-// theme "dracula"
+theme "catppuccin-mocha"
  
 // Choose the base input mode of zellij.
 // Default: normal

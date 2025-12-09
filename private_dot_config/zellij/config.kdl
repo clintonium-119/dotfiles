@@ -169,18 +169,70 @@ keybinds clear-defaults=true {
         bind "Alt p" { TogglePaneInGroup; }
         bind "Alt Shift p" { ToggleGroupMarking; }
 
-        // Simple pane navigation - zellij-nav.nvim handles nvim-to-zellij navigation
-        // These only trigger when nvim is NOT focused (nvim intercepts Ctrl+hjkl first)
-        bind "Ctrl h" { MoveFocusOrTab "left"; }
-        bind "Ctrl j" { MoveFocus "down"; }
-        bind "Ctrl k" { MoveFocus "up"; }
-        bind "Ctrl l" { MoveFocusOrTab "right"; }
+        // vim-zellij-navigator: detects nvim and forwards keys, otherwise does MoveFocus
+        bind "Ctrl h" {
+            MessagePlugin "file:/home/clintonium-119/.config/zellij/vim-zellij-navigator.wasm" {
+                name "move_focus_or_tab";
+                payload "left";
+                move_mod "ctrl";
+            };
+        }
 
-        // Simple resize bindings
-        bind "Alt h" { Resize "Increase left"; }
-        bind "Alt j" { Resize "Increase down"; }
-        bind "Alt k" { Resize "Increase up"; }
-        bind "Alt l" { Resize "Increase right"; }
+        bind "Ctrl j" {
+            MessagePlugin "file:/home/clintonium-119/.config/zellij/vim-zellij-navigator.wasm" {
+                name "move_focus";
+                payload "down";
+                move_mod "ctrl";
+            };
+        }
+
+        bind "Ctrl k" {
+            MessagePlugin "file:/home/clintonium-119/.config/zellij/vim-zellij-navigator.wasm" {
+                name "move_focus";
+                payload "up";
+                move_mod "ctrl";
+            };
+        }
+
+        bind "Ctrl l" {
+            MessagePlugin "file:/home/clintonium-119/.config/zellij/vim-zellij-navigator.wasm" {
+                name "move_focus_or_tab";
+                payload "right";
+                move_mod "ctrl";
+            };
+        }
+
+        bind "Alt h" {
+            MessagePlugin "file:/home/clintonium-119/.config/zellij/vim-zellij-navigator.wasm" {
+                name "resize";
+                payload "left";
+                resize_mod "alt";
+            };
+        }
+
+        bind "Alt j" {
+            MessagePlugin "file:/home/clintonium-119/.config/zellij/vim-zellij-navigator.wasm" {
+                name "resize";
+                payload "down";
+                resize_mod "alt";
+            };
+        }
+
+        bind "Alt k" {
+            MessagePlugin "file:/home/clintonium-119/.config/zellij/vim-zellij-navigator.wasm" {
+                name "resize";
+                payload "up";
+                resize_mod "alt";
+            };
+        }
+
+        bind "Alt l" {
+            MessagePlugin "file:/home/clintonium-119/.config/zellij/vim-zellij-navigator.wasm" {
+                name "resize";
+                payload "right";
+                resize_mod "alt";
+            };
+        }
     }
     shared_except "locked" "renametab" "renamepane" {
         bind "Ctrl g" { SwitchToMode "locked"; }

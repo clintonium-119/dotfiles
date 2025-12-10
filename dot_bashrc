@@ -44,6 +44,8 @@ export PATH=$PATH:"$HOME/src/github/tidepool-org/tiltronic/bin"
 export TIDEPOOL_DOCKER_PLATFORM_CLIENT_DIR="$HOME/src/github/tidepool-org/platform-client"
 export TIDEPOOL_DOCKER_VIZ_DIR="$HOME/src/github/tidepool-org/viz"
 export TIDEPOOL_DOCKER_TIDELINE_DIR="$HOME/src/github/tidepool-org/tideline"
+export NODE_ENV="development"
+export CHROME_BIN="/usr/bin/chromium"
 
 # Git
 export GITHUB_USERNAME="clintionium-119"

@@ -1,20 +1,17 @@
 layout {
     cwd "/home/clintonium-119/src/github/tidepool-org"
-    tab name="blip" hide_floating_panes=true {
+    tab name="viz" hide_floating_panes=true {
         pane size=1 borderless=true {
             plugin location="zellij:tab-bar"
         }
         pane split_direction="vertical" {
-            pane command="nvim" cwd="blip" size="65%" {
+            pane command="nvim" cwd="viz" size="70%" {
                 args "."
                 start_suspended true
             }
-            pane size="35%" stacked=true {
-                pane command="node" cwd="blip" {
-                    args "/home/clintonium-119/.local/share/mise/installs/node/20.8.0/bin/yarn" "startLocal"
-                    start_suspended true
-                }
-                pane command="opencode" cwd="blip" expanded=true {
+            pane size="30%" stacked=true {
+                pane cwd="viz"
+                pane command="opencode" cwd="viz" expanded=true {
                     start_suspended true
                 }
             }
@@ -22,33 +19,43 @@ layout {
         pane size=1 borderless=true {
             plugin location="zellij:status-bar"
         }
-        floating_panes {
-            pane {
-                height 33
-                width 132
-                x 66
-                y 18
-                plugin location="zellij:session-manager" {
-                    caller_cwd "/home/clintonium-119/src/github/tidepool-org/blip"
-                }
-            }
-        }
     }
-    tab name="viz" focus=true hide_floating_panes=true {
+    tab name="blip" hide_floating_panes=true {
         pane size=1 borderless=true {
             plugin location="zellij:tab-bar"
         }
         pane split_direction="vertical" {
-            pane command="nvim" cwd="viz" focus=true size="65%" {
+            pane command="nvim" cwd="blip" size="70%" {
                 args "."
                 start_suspended true
             }
-            pane size="35%" stacked=true {
-                pane command="node" cwd="viz" {
-                    args "/home/clintonium-119/.local/share/mise/installs/node/20.8.0/bin/yarn" "stories"
+            pane size="30%" stacked=true {
+                pane cwd="blip" expanded=true
+                pane command="opencode" cwd="/home/clintonium-119/src/github/tidepool-org/blip" {
                     start_suspended true
                 }
-                pane command="opencode" cwd="viz" expanded=true {
+            }
+        }
+        pane size=1 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+    tab name="orca" focus=true hide_floating_panes=true {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        pane split_direction="vertical" {
+            pane command="nvim" cwd="orca-remix" size="70%" {
+                args "."
+                start_suspended true
+            }
+            pane size="30%" stacked=true {
+                pane command="npm" cwd="orca-remix" {
+                    args "run" "dev"
+                    start_suspended true
+                }
+                pane command="/usr/bin/opencode" cwd="orca-remix" focus=true expanded=true {
+                    args "--max-old-space-size=8192" "/home/clintonium-119/.local/share/opencode/bin/vscode-eslint/server/out/eslintServer.js" "--stdio"
                     start_suspended true
                 }
             }
@@ -61,7 +68,7 @@ layout {
         pane size=1 borderless=true {
             plugin location="zellij:tab-bar"
         }
-        pane
+        pane cwd="/home/clintonium-119/src/github/tidepool-org"
         pane size=1 borderless=true {
             plugin location="zellij:status-bar"
         }
@@ -218,61 +225,61 @@ layout {
     }
     swap_floating_layout name="enlarged" {
         floating_panes max_panes=10 {
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "90%"
                 width "90%"
                 x "5%"
                 y 1
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "90%"
                 width "90%"
                 x "5%"
                 y 2
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "90%"
                 width "90%"
                 x "5%"
                 y 3
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "90%"
                 width "90%"
                 x "5%"
                 y 4
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "90%"
                 width "90%"
                 x "5%"
                 y 5
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "90%"
                 width "90%"
                 x "5%"
                 y 6
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "90%"
                 width "90%"
                 x "5%"
                 y 7
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "90%"
                 width "90%"
                 x "5%"
                 y 8
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "90%"
                 width "90%"
                 x "5%"
                 y 9
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "90%"
                 width "90%"
                 x 10
@@ -282,60 +289,60 @@ layout {
     }
     swap_floating_layout name="spread" {
         floating_panes max_panes=1 {
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 x "50%"
                 y "50%"
             }
         }
         floating_panes max_panes=2 {
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 width "45%"
                 x "1%"
                 y "25%"
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 width "45%"
                 x "50%"
                 y "25%"
             }
         }
         floating_panes max_panes=3 {
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "45%"
                 width "45%"
                 y "55%"
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 width "45%"
                 x "1%"
                 y "1%"
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 width "45%"
                 x "50%"
                 y "1%"
             }
         }
         floating_panes max_panes=4 {
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "45%"
                 width "45%"
                 x "1%"
                 y "55%"
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "45%"
                 width "45%"
                 x "50%"
                 y "55%"
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "45%"
                 width "45%"
                 x "1%"
                 y "1%"
             }
-            pane {
+            pane cwd="/home/clintonium-119/src/github/tidepool-org" {
                 height "45%"
                 width "45%"
                 x "50%"

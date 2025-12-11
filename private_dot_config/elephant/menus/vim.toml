@@ -1,0 +1,1585 @@
+name = "vim"
+name_pretty = "Vim Commands"
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":h[elp] keyword - Open help for keyword"
+keywords = ["help", "keyword", "documentation"]
+value = "https://vim.rtorr.com/#:~:text=%3Ah%5Belp%5D%20keyword%20%2D%20open%20help%20for%20keyword"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":sav[eas] file - Save file as"
+keywords = ["save", "file", "as"]
+value = "https://vim.rtorr.com/#:~:text=%3Asav%5Beas%5D%20file%20%2D%20save%20file%20as"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":clo[se] - Close current pane"
+keywords = ["close", "pane", "window"]
+value = "https://vim.rtorr.com/#:~:text=%3Aclo%5Bse%5D%20%2D%20close%20current%20pane"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":ter[minal] - Open a terminal window"
+keywords = ["terminal", "open", "window", "command line"]
+value = "https://vim.rtorr.com/#:~:text=%3Ater%5Bminal%5D%20%2D%20open%20a%20terminal%20window"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "K - Open man page for word under the cursor"
+keywords = ["man page", "help", "documentation", "cursor"]
+value = "https://vim.rtorr.com/#:~:text=K%20%2D%20open%20man%20page%20for%20word%20under%20the%20cursor"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "h - Move cursor left"
+keywords = ["cursor", "move", "left", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=h%20%2D%20move%20cursor%20left"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "j - Move cursor down"
+keywords = ["cursor", "move", "down", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=j%20%2D%20move%20cursor%20down"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "k - Move cursor up"
+keywords = ["cursor", "move", "up", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=k%20%2D%20move%20cursor%20up"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "l - Move cursor right"
+keywords = ["cursor", "move", "right", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=l%20%2D%20move%20cursor%20right"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gj - Move cursor down (multi-line text)"
+keywords = ["cursor", "move", "down", "navigation", "multi-line", "text"]
+value = "https://vim.rtorr.com/#:~:text=gj%20%2D%20move%20cursor%20down%20%28multi-line%20text%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gk - Move cursor up (multi-line text)"
+keywords = ["cursor", "move", "up", "navigation", "multi-line", "text"]
+value = "https://vim.rtorr.com/#:~:text=gk%20%2D%20move%20cursor%20up%20%28multi-line%20text%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "H - Move to top of screen"
+keywords = ["cursor", "move", "top", "screen", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=H%20%2D%20move%20to%20top%20of%20screen"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "M - Move to middle of screen"
+keywords = ["cursor", "move", "middle", "screen", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=M%20%2D%20move%20to%20middle%20of%20screen"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "L - Move to bottom of screen"
+keywords = ["cursor", "move", "bottom", "screen", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=L%20%2D%20move%20to%20bottom%20of%20screen"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "w - Jump forwards to the start of a word"
+keywords = ["cursor", "jump", "forward", "word", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=w%20%2D%20jump%20forwards%20to%20the%20start%20of%20a%20word"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "W - Jump forwards to the start of a word (words can contain punctuation)"
+keywords = ["cursor", "jump", "forward", "word", "punctuation", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=W%20%2D%20jump%20forwards%20to%20the%20start%20of%20a%20word%20%28words%20can%20contain%20punctuation%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "e - Jump forwards to the end of a word"
+keywords = ["cursor", "jump", "forward", "word", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=e%20%2D%20jump%20forwards%20to%20the%20end%20of%20a%20word"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "E - Jump forwards to the end of a word (words can contain punctuation)"
+keywords = ["cursor", "jump", "forward", "word", "punctuation", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=E%20%2D%20jump%20forwards%20to%20the%20end%20of%20a%20word%20%28words%20can%20contain%20punctuation%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "b - Jump backwards to the start of a word"
+keywords = ["cursor", "jump", "backwards", "word", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=b%20%2D%20jump%20backwards%20to%20the%20start%20of%20a%20word"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "B - Jump backwards to the start of a word (words can contain punctuation)"
+keywords = ["cursor", "jump", "backwards", "word", "punctuation", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=B%20%2D%20jump%20backwards%20to%20the%20start%20of%20a%20word%20%28words%20can%20contain%20punctuation%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "ge - Jump backwards to the end of a word"
+keywords = ["cursor", "jump", "backwards", "word", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=ge%20%2D%20jump%20backwards%20to%20the%20end%20of%20a%20word"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gE - Jump backwards to the end of a word (words can contain punctuation)"
+keywords = ["cursor", "jump", "backwards", "word", "punctuation", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=gE%20%2D%20jump%20backwards%20to%20the%20end%20of%20a%20word%20%28words%20can%20contain%20punctuation%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "% - Move cursor to matching character"
+keywords = ["cursor", "move", "matching", "character", "parentheses", "brackets", "braces", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=%25%20%2D%20move%20cursor%20to%20matching%20character%20%28default%20supported%20pairs%3A%20%27%28%29%27%2C%20%27%7B%7D%27%2C%20%27%5B%5D%27%2D%20use%20%20%3Ah%20matchpairs%20%20in%20vim%20for%20more%20info%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "0 - Jump to the start of the line"
+keywords = ["cursor", "jump", "start", "line", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=0%20%2D%20jump%20to%20the%20start%20of%20the%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "^ - Jump to the first non-blank character of the line"
+keywords = ["cursor", "jump", "first", "non-blank", "character", "line", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=%5E%20%2D%20jump%20to%20the%20first%20non-blank%20character%20of%20the%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "$ - Jump to the end of the line"
+keywords = ["cursor", "jump", "end", "line", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=%24%20%2D%20jump%20to%20the%20end%20of%20the%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "g_ - Jump to the last non-blank character of the line"
+keywords = ["cursor", "jump", "last", "non-blank", "character", "line", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=g_%20%2D%20jump%20to%20the%20last%20non-blank%20character%20of%20the%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gg - Go to the first line of the document"
+keywords = ["cursor", "go", "first", "line", "document", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=gg%20%2D%20go%20to%20the%20first%20line%20of%20the%20document"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "G - Go to the last line of the document"
+keywords = ["cursor", "go", "last", "line", "document", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=G%20%2D%20go%20to%20the%20last%20line%20of%20the%20document"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "5gg or 5G - Go to line 5"
+keywords = ["cursor", "go", "line", "number", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=5gg%20%20or%20%205G%20%2D%20go%20to%20line%205"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gd - Move to local declaration"
+keywords = ["cursor", "move", "local", "declaration", "code", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=gd%20%2D%20move%20to%20local%20declaration"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gD - Move to global declaration"
+keywords = ["cursor", "move", "global", "declaration", "code", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=gD%20%2D%20move%20to%20global%20declaration"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "fx - Jump to next occurrence of character x"
+keywords = ["cursor", "jump", "next", "occurrence", "character", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=fx%20%2D%20jump%20to%20next%20occurrence%20of%20character%20x"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "tx - Jump to before next occurrence of character x"
+keywords = ["cursor", "jump", "before", "next", "occurrence", "character", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=tx%20%2D%20jump%20to%20before%20next%20occurrence%20of%20character%20x"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Fx - Jump to the previous occurrence of character x"
+keywords = ["cursor", "jump", "previous", "occurrence", "character", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=Fx%20%2D%20jump%20to%20the%20previous%20occurrence%20of%20character%20x"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Tx - Jump to after previous occurrence of character x"
+keywords = ["cursor", "jump", "after", "previous", "occurrence", "character", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=Tx%20%2D%20jump%20to%20after%20previous%20occurrence%20of%20character%20x"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "; - Repeat previous f, t, F or T movement"
+keywords = ["cursor", "repeat", "previous", "movement", "f", "t", "F", "T", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=%3B%20%2D%20repeat%20previous%20f%2C%20t%2C%20F%20or%20T%20movement"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ", - Repeat previous f, t, F or T movement, backwards"
+keywords = ["cursor", "repeat", "previous", "movement", "backwards", "f", "t", "F", "T", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=%2C%20%2D%20repeat%20previous%20f%2C%20t%2C%20F%20or%20T%20movement%2C%20backwards"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "} - Jump to next paragraph (or function/block, when editing code)"
+keywords = ["cursor", "jump", "next", "paragraph", "function", "block", "code", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=%7D%20%2D%20jump%20to%20next%20paragraph%20%28or%20function/block%2C%20when%20editing%20code%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "{ - Jump to previous paragraph (or function/block, when editing code)"
+keywords = ["cursor", "jump", "previous", "paragraph", "function", "block", "code", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=%7B%20%2D%20jump%20to%20previous%20paragraph%20%28or%20function/block%2C%20when%20editing%20code%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "zz - Center cursor on screen"
+keywords = ["cursor", "center", "screen", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=zz%20%2D%20center%20cursor%20on%20screen"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "zt - Position cursor on top of the screen"
+keywords = ["cursor", "position", "top", "screen", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=zt%20%2D%20position%20cursor%20on%20top%20of%20the%20screen"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "zb - Position cursor on bottom of the screen"
+keywords = ["cursor", "position", "bottom", "screen", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=zb%20%2D%20position%20cursor%20on%20bottom%20of%20the%20screen"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + e - Move screen down one line (without moving cursor)"
+keywords = ["screen", "move", "down", "line", "cursor", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20e%20%2D%20move%20screen%20down%20one%20line%20%28without%20moving%20cursor%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + y - Move screen up one line (without moving cursor)"
+keywords = ["screen", "move", "up", "line", "cursor", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20y%20%2D%20move%20screen%20up%20one%20line%20%28without%20moving%20cursor%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + b - Move screen up one page (cursor to last line)"
+keywords = ["screen", "move", "up", "page", "cursor", "last", "line", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20b%20%2D%20move%20screen%20up%20one%20page%20%28cursor%20to%20last%20line%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + f - Move screen down one page (cursor to first line)"
+keywords = ["screen", "move", "down", "page", "cursor", "first", "line", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20f%20%2D%20move%20screen%20down%20one%20page%20%28cursor%20to%20first%20line%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + d - Move cursor and screen down 1/2 page"
+keywords = ["cursor", "screen", "move", "down", "half", "page", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20d%20%2D%20move%20cursor%20and%20screen%20down%201/2%20page"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + u - Move cursor and screen up 1/2 page"
+keywords = ["cursor", "screen", "move", "up", "half", "page", "navigation"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20u%20%2D%20move%20cursor%20and%20screen%20up%201/2%20page"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "i - Insert before the cursor"
+keywords = ["insert", "text", "before", "cursor", "editing", "mode"]
+value = "https://vim.rtorr.com/#:~:text=i%20%2D%20insert%20before%20the%20cursor"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "I - Insert at the beginning of the line"
+keywords = ["insert", "text", "beginning", "line", "editing", "mode"]
+value = "https://vim.rtorr.com/#:~:text=I%20%2D%20insert%20at%20the%20beginning%20of%20the%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "a - Insert (append) after the cursor"
+keywords = ["insert", "append", "text", "after", "cursor", "editing", "mode"]
+value = "https://vim.rtorr.com/#:~:text=a%20%2D%20insert%20%28append%29%20after%20the%20cursor"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "A - Insert (append) at the end of the line"
+keywords = ["insert", "append", "text", "end", "line", "editing", "mode"]
+value = "https://vim.rtorr.com/#:~:text=A%20%2D%20insert%20%28append%29%20at%20the%20end%20of%20the%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "o - Append (open) a new line below the current line"
+keywords = ["append", "open", "new", "line", "below", "current", "editing", "mode"]
+value = "https://vim.rtorr.com/#:~:text=o%20%2D%20append%20%28open%29%20a%20new%20line%20below%20the%20current%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "O - Append (open) a new line above the current line"
+keywords = ["append", "open", "new", "line", "above", "current", "editing", "mode"]
+value = "https://vim.rtorr.com/#:~:text=O%20%2D%20append%20%28open%29%20a%20new%20line%20above%20the%20current%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "ea - Insert (append) at the end of the word"
+keywords = ["insert", "append", "text", "end", "word", "editing", "mode"]
+value = "https://vim.rtorr.com/#:~:text=ea%20%2D%20insert%20%28append%29%20at%20the%20end%20of%20the%20word"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + h - Delete the character before the cursor during insert mode"
+keywords = ["delete", "character", "before", "cursor", "insert", "mode", "editing"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20h%20%2D%20delete%20the%20character%20before%20the%20cursor%20during%20insert%20mode"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + w - Delete word before the cursor during insert mode"
+keywords = ["delete", "word", "before", "cursor", "insert", "mode", "editing"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20w%20%2D%20delete%20word%20before%20the%20cursor%20during%20insert%20mode"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + j - Add a line break at the cursor position during insert mode"
+keywords = ["line break", "cursor", "insert", "mode", "editing"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20j%20%2D%20add%20a%20line%20break%20at%20the%20cursor%20position%20during%20insert%20mode"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + t - Indent (move right) line one shiftwidth during insert mode"
+keywords = ["indent", "move", "right", "shiftwidth", "insert", "mode", "editing"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20t%20%2D%20indent%20%28move%20right%29%20line%20one%20shiftwidth%20during%20insert%20mode"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + d - De-indent (move left) line one shiftwidth during insert mode"
+keywords = ["de-indent", "move", "left", "shiftwidth", "insert", "mode", "editing"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20d%20%2D%20de-indent%20%28move%20left%29%20line%20one%20shiftwidth%20during%20insert%20mode"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + n - Insert (auto-complete) next match before the cursor during insert mode"
+keywords = ["insert", "auto-complete", "next", "match", "before", "cursor", "insert", "mode", "editing"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20n%20%2D%20insert%20%28auto-complete%29%20next%20match%20before%20the%20cursor%20during%20insert%20mode"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + p - Insert (auto-complete) previous match before the cursor during insert mode"
+keywords = ["insert", "auto-complete", "previous", "match", "before", "cursor", "insert", "mode", "editing"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20p%20%2D%20insert%20%28auto-complete%29%20previous%20match%20before%20the%20cursor%20during%20insert%20mode"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + rx - Insert the contents of register x"
+keywords = ["insert", "register", "contents", "paste", "editing"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20rx%20%2D%20insert%20the%20contents%20of%20register%20x"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + ox - Temporarily enter normal mode to issue one normal-mode command x."
+keywords = ["normal", "mode", "command", "temporary", "insert", "editing"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20ox%20%2D%20Temporarily%20enter%20normal%20mode%20to%20issue%20one%20normal-mode%20command%20x."
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Esc or Ctrl + c - Exit insert mode"
+keywords = ["exit", "insert", "mode", "normal", "mode", "editing"]
+value = "https://vim.rtorr.com/#:~:text=Esc%20%20or%20%20Ctrl%20%20%2B%20%20c%20%2D%20exit%20insert%20mode"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "r - Replace a single character"
+keywords = ["replace", "character", "editing"]
+value = "https://vim.rtorr.com/#:~:text=r%20%2D%20replace%20a%20single%20character."
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "R - Replace more than one character, until ESC is pressed"
+keywords = ["replace", "multiple", "characters", "editing"]
+value = "https://vim.rtorr.com/#:~:text=R%20%2D%20replace%20more%20than%20one%20character%2C%20until%20%20ESC%20%20is%20pressed."
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "J - Join line below to the current one with one space in between"
+keywords = ["join", "line", "below", "current", "space", "editing"]
+value = "https://vim.rtorr.com/#:~:text=J%20%2D%20join%20line%20below%20to%20the%20current%20one%20with%20one%20space%20in%20between"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gJ - Join line below to the current one without space in between"
+keywords = ["join", "line", "below", "current", "no space", "editing"]
+value = "https://vim.rtorr.com/#:~:text=gJ%20%2D%20join%20line%20below%20to%20the%20current%20one%20without%20space%20in%20between"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gwip - Reflow paragraph"
+keywords = ["reflow", "paragraph", "formatting", "text", "editing"]
+value = "https://vim.rtorr.com/#:~:text=gwip%20%2D%20reflow%20paragraph"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "g~ - Switch case up to motion"
+keywords = ["switch", "case", "uppercase", "lowercase", "motion", "editing"]
+value = "https://vim.rtorr.com/#:~:text=g~%20%2D%20switch%20case%20up%20to%20motion"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gu - Change to lowercase up to motion"
+keywords = ["change", "lowercase", "motion", "editing"]
+value = "https://vim.rtorr.com/#:~:text=gu%20%2D%20change%20to%20lowercase%20up%20to%20motion"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gU - Change to Uppercase"
+keywords = ["uppercase", "gU", "change case"]
+value = "https://vim.rtorr.com/#:~:text=change%20to%20uppercase%20up%20to%20motion"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "cc - Change (Replace) Entire Line"
+keywords = ["replace line", "change line", "cc"]
+value = "https://vim.rtorr.com/#:~:text=change%20%28replace%29%20entire%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "c$ or C - Change (Replace) to End of Line"
+keywords = ["replace to end of line", "change to end of line", "c$", "C"]
+value = "https://vim.rtorr.com/#:~:text=change%20%28replace%29%20to%20the%20end%20of%20the%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "ciw - Change (Replace) Entire Word"
+keywords = ["replace word", "change word", "ciw"]
+value = "https://vim.rtorr.com/#:~:text=change%20%28replace%29%20entire%20word"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "cw or ce - Change (Replace) to End of Word"
+keywords = ["replace to end of word", "change to end of word", "cw", "ce"]
+value = "https://vim.rtorr.com/#:~:text=change%20%28replace%29%20to%20the%20end%20of%20the%20word"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "s - Delete Character and Substitute Text"
+keywords = ["delete and substitute", "s", "cl"]
+value = "https://vim.rtorr.com/#:~:text=delete%20character%20and%20substitute%20text%20%28same%20as%20cl%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "S - Delete Line and Substitute Text"
+keywords = ["delete line and substitute", "S", "cc"]
+value = "https://vim.rtorr.com/#:~:text=delete%20line%20and%20substitute%20text%20%28same%20as%20cc%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "xp - Transpose Two Letters"
+keywords = ["transpose", "switch letters", "xp"]
+value = "https://vim.rtorr.com/#:~:text=transpose%20two%20letters%20%28delete%20and%20paste%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "u - Undo"
+keywords = ["undo change", "reverse change", "u"]
+value = "https://vim.rtorr.com/#:~:text=undo"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "U - Restore (Undo) Last Changed Line"
+keywords = ["restore line", "undo line change", "U"]
+value = "https://vim.rtorr.com/#:~:text=restore%20%28undo%29%20last%20changed%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + r - Redo"
+keywords = ["ctrl+r", "redo", "repeat"]
+value = "https://vim.rtorr.com/#:~:text=redo"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ". - Repeat Last Command"
+keywords = ["repeat", "dot command", "."]
+value = "https://vim.rtorr.com/#:~:text=repeat%20last%20command"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "v - Start Visual Mode"
+keywords = ["visual mode", "select text", "mark lines", "v"]
+value = "https://vim.rtorr.com/#:~:text=start%20visual%20mode%2C%20mark%20lines%2C%20then%20do%20a%20command%20%28like%20y-yank%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "V - Start Linewise Visual Mode"
+keywords = ["linewise visual mode", "select lines", "V"]
+value = "https://vim.rtorr.com/#:~:text=start%20linewise%20visual%20mode"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "o - Move to Other End of Marked Area"
+keywords = ["visual mode", "switch selection ends", "o"]
+value = "https://vim.rtorr.com/#:~:text=move%20to%20other%20end%20of%20marked%20area"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + v - Start Visual Block Mode"
+keywords = ["visual block mode", "select block", "Ctrl+v"]
+value = "https://vim.rtorr.com/#:~:text=start%20visual%20block%20mode"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "O - Move to Other Corner of Block"
+keywords = ["visual block mode", "move block corner", "O"]
+value = "https://vim.rtorr.com/#:~:text=move%20to%20other%20corner%20of%20block"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "aw - Mark a Word"
+keywords = ["visual mode", "select word", "aw"]
+value = "https://vim.rtorr.com/#:~:text=mark%20a%20word"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "ab - Mark a Block with Parentheses"
+keywords = ["visual mode", "select block", "parentheses", "ab"]
+value = "https://vim.rtorr.com/#:~:text=a%20block%20with%20%28%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "aB - Mark a Block with Curly Braces"
+keywords = ["visual mode", "select block", "curly braces", "aB"]
+value = "https://vim.rtorr.com/#:~:text=a%20block%20with%20%7B%7D"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "at - Mark a Block with Angle Brackets"
+keywords = ["visual mode", "select block", "angle brackets", "tags", "at"]
+value = "https://vim.rtorr.com/#:~:text=a%20block%20with%20%3C%3E%20tags"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "ib - Select Inner Block with Parentheses"
+keywords = ["visual mode", "select inner block", "parentheses", "ib"]
+value = "https://vim.rtorr.com/#:~:text=inner%20block%20with%20%28%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "iB - Select Inner Block with Curly Braces"
+keywords = ["visual mode", "select inner block", "curly braces", "iB"]
+value = "https://vim.rtorr.com/#:~:text=inner%20block%20with%20%7B%7D"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "it - Select Inner Block with Angle Brackets"
+keywords = ["visual mode", "select inner block", "angle brackets", "tags", "it"]
+value = "https://vim.rtorr.com/#:~:text=inner%20block%20with%20%3C%3E%20tags"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Esc or Ctrl + c - Exit Visual Mode"
+keywords = ["visual mode", "exit", "Esc", "Ctrl+c"]
+value = "https://vim.rtorr.com/#:~:text=exit%20visual%20mode"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "> - Shift Text Right"
+keywords = ["visual mode", "indent", ">"]
+value = "https://vim.rtorr.com/#:~:text=shift%20text%20right"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "< - Shift Text Left"
+keywords = ["visual mode", "unindent", "<"]
+value = "https://vim.rtorr.com/#:~:text=shift%20text%20left"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "y - Yank (Copy) Marked Text"
+keywords = ["visual mode", "copy", "yank", "y"]
+value = "https://vim.rtorr.com/#:~:text=yank%20%28copy%29%20marked%20text"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "d - Delete Marked Text"
+keywords = ["visual mode", "delete", "d"]
+value = "https://vim.rtorr.com/#:~:text=delete%20marked%20text"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "~ - Switch Case"
+keywords = ["visual mode", "toggle case", "~"]
+value = "https://vim.rtorr.com/#:~:text=switch%20case"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "u - Change Marked Text to Lowercase"
+keywords = ["visual mode", "lowercase", "u"]
+value = "https://vim.rtorr.com/#:~:text=change%20marked%20text%20to%20lowercase"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "U - Change Marked Text to Uppercase"
+keywords = ["visual mode", "uppercase", "U"]
+value = "https://vim.rtorr.com/#:~:text=change%20marked%20text%20to%20uppercase"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":reg[isters] - Show Registers Content"
+keywords = ["registers", "view registers", ":reg", ":registers"]
+value = "https://vim.rtorr.com/#:~:text=%3Areg%5Bisters%5D%20%2D%20show%20registers%20content"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "\"xy - Yank into Register x"
+keywords = ["registers", "yank", "copy to register", "\"xy"]
+value = "https://vim.rtorr.com/#:~:text=%22xy%20%2D%20yank%20into%20register%20x"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "\"xp - Paste Contents of Register x"
+keywords = ["registers", "paste", "paste from register", "\"xp"]
+value = "https://vim.rtorr.com/#:~:text=%22xp%20%2D%20paste%20contents%20of%20register%20x"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "\"+y - Yank into System Clipboard Register"
+keywords = ["clipboard", "copy", "yank", "system clipboard", "\"+y"]
+value = "https://vim.rtorr.com/#:~:text=%22%2By%20%2D%20yank%20into%20the%20system%20clipboard%20register"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "\"+p - Paste from System Clipboard Register"
+keywords = ["clipboard", "paste", "system clipboard", "\"+p"]
+value = "https://vim.rtorr.com/#:~:text=%22%2Bp%20%2D%20paste%20from%20the%20system%20clipboard%20register"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":marks - List of Marks"
+keywords = ["marks", "view marks", ":marks"]
+value = "https://vim.rtorr.com/#:~:text=%3Amarks%20%2D%20list%20of%20marks"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "ma - Set Current Position for Mark A"
+keywords = ["marks", "set mark", "ma"]
+value = "https://vim.rtorr.com/#:~:text=ma%20%2D%20set%20current%20position%20for%20mark%20A"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "`a - Jump to Position of Mark A"
+keywords = ["marks", "jump to mark", "`a"]
+value = "https://vim.rtorr.com/#:~:text=%60a%20%2D%20jump%20to%20position%20of%20mark%20A"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "y`a - Yank Text to Position of Mark A"
+keywords = ["marks", "yank", "copy to mark", "y`a"]
+value = "https://vim.rtorr.com/#:~:text=y%60a%20%2D%20yank%20text%20to%20position%20of%20mark%20A"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "`0 - Go to Previous Exit Position"
+keywords = ["position", "previous exit", "`0"]
+value = "https://vim.rtorr.com/#:~:text=%600%20%2D%20go%20to%20the%20position%20where%20Vim%20was%20previously%20exited"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "'\" - Go to Last Edit Position"
+keywords = ["position", "last edit", "'\""]
+value = "https://vim.rtorr.com/#:~:text=%27%22%20%2D%20go%20to%20the%20position%20when%20last%20editing%20this%20file"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "`.` - Go to Last Change Position"
+keywords = ["position", "last change", "`.`"]
+value = "https://vim.rtorr.com/#:~:text=%60.%20%2D%20go%20to%20the%20position%20of%20the%20last%20change%20in%20this%20file"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "`` - Go to Position Before Last Jump"
+keywords = ["position", "last jump", "``"]
+value = "https://vim.rtorr.com/#:~:text=%60%60%20%2D%20go%20to%20the%20position%20before%20the%20last%20jump"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":ju[mps] - List of Jumps"
+keywords = ["jumps", "view jumps", ":ju", ":jumps"]
+value = "https://vim.rtorr.com/#:~:text=%3Aju%5Bmps%5D%20%2D%20list%20of%20jumps"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + i - Go to Newer Position in Jump List"
+keywords = ["jumps", "next jump", "Ctrl+i"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20i%20%2D%20go%20to%20newer%20position%20in%20jump%20list"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + o - Go to Older Position in Jump List"
+keywords = ["jumps", "previous jump", "Ctrl+o"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20o%20%2D%20go%20to%20older%20position%20in%20jump%20list"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":changes - List of Changes"
+keywords = ["changes", "view changes", ":changes"]
+value = "https://vim.rtorr.com/#:~:text=%3Achanges%20%2D%20list%20of%20changes"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "g, - Go to Newer Position in Change List"
+keywords = ["changes", "next change", "g,"]
+value = "https://vim.rtorr.com/#:~:text=g%2C%20%2D%20go%20to%20newer%20position%20in%20change%20list"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "g; - Go to Older Position in Change List"
+keywords = ["changes", "previous change", "g;"]
+value = "https://vim.rtorr.com/#:~:text=g%3B%20%2D%20go%20to%20older%20position%20in%20change%20list"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + ] - Jump to Tag Under Cursor"
+keywords = ["tags", "jump to tag", "Ctrl+]"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20%5D%20%2D%20jump%20to%20the%20tag%20under%20cursor"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "qa - Record Macro a"
+keywords = ["macros", "record macro", "qa"]
+value = "https://vim.rtorr.com/#:~:text=qa%20%2D%20record%20macro%20a"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "q - Stop Recording Macro"
+keywords = ["macros", "stop recording", "q"]
+value = "https://vim.rtorr.com/#:~:text=q%20%2D%20stop%20recording%20macro"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "@a - Run Macro a"
+keywords = ["macros", "run macro", "@a"]
+value = "https://vim.rtorr.com/#:~:text=%40a%20%2D%20run%20macro%20a"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "@@ - Rerun Last Macro"
+keywords = ["macros", "rerun", "repeat macro", "@@"]
+value = "https://vim.rtorr.com/#:~:text=%40%40%20%2D%20rerun%20last%20run%20macro"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "yy - Yank (Copy) a Line"
+keywords = ["copy", "yank", "yy"]
+value = "https://vim.rtorr.com/#:~:text=yy%20%2D%20yank%20%28copy%29%20a%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "2yy - Yank (Copy) 2 Lines"
+keywords = ["copy", "yank", "multiple lines", "2yy"]
+value = "https://vim.rtorr.com/#:~:text=2yy%20%2D%20yank%20%28copy%29%202%20lines"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "yw - Yank (Copy) Word"
+keywords = ["copy", "yank", "word", "yw"]
+value = "https://vim.rtorr.com/#:~:text=yw%20%2D%20yank%20%28copy%29%20the%20characters%20of%20the%20word%20from%20the%20cursor%20position%20to%20the%20start%20of%20the%20next%20word"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "yiw - Yank (Copy) Word Under Cursor"
+keywords = ["copy", "yank", "word under cursor", "yiw"]
+value = "https://vim.rtorr.com/#:~:text=yiw%20%2D%20yank%20%28copy%29%20word%20under%20the%20cursor"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "yaw - Yank (Copy) Word with Space"
+keywords = ["copy", "yank", "word with space", "yaw"]
+value = "https://vim.rtorr.com/#:~:text=yaw%20%2D%20yank%20%28copy%29%20word%20under%20the%20cursor%20and%20the%20space%20after%20or%20before%20it"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "y$ or Y - Yank (Copy) to End of Line"
+keywords = ["copy", "yank", "end of line", "y$", "Y"]
+value = "https://vim.rtorr.com/#:~:text=y%24%20%20or%20%20Y%20%2D%20yank%20%28copy%29%20to%20end%20of%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "p - Put (Paste) After Cursor"
+keywords = ["paste", "put", "p"]
+value = "https://vim.rtorr.com/#:~:text=p%20%2D%20put%20%28paste%29%20the%20clipboard%20after%20cursor"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "P - Put (Paste) Before Cursor"
+keywords = ["paste", "put", "P"]
+value = "https://vim.rtorr.com/#:~:text=P%20%2D%20put%20%28paste%29%20before%20cursor"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gp - Put (Paste) After Cursor and Move"
+keywords = ["paste", "put", "move cursor", "gp"]
+value = "https://vim.rtorr.com/#:~:text=gp%20%2D%20put%20%28paste%29%20the%20clipboard%20after%20cursor%20and%20leave%20cursor%20after%20the%20new%20text"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gP - Put (Paste) Before Cursor and Move"
+keywords = ["paste", "put", "move cursor", "gP"]
+value = "https://vim.rtorr.com/#:~:text=gP%20%2D%20put%20%28paste%29%20before%20cursor%20and%20leave%20cursor%20after%20the%20new%20text"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "dd - Delete (Cut) a Line"
+keywords = ["cut", "delete", "dd"]
+value = "https://vim.rtorr.com/#:~:text=dd%20%2D%20delete%20%28cut%29%20a%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "2dd - Delete (Cut) 2 Lines"
+keywords = ["cut", "delete", "multiple lines", "2dd"]
+value = "https://vim.rtorr.com/#:~:text=2dd%20%2D%20delete%20%28cut%29%202%20lines"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "dw - Delete (Cut) Word"
+keywords = ["cut", "delete", "word", "dw"]
+value = "https://vim.rtorr.com/#:~:text=dw%20%2D%20delete%20%28cut%29%20the%20characters%20of%20the%20word%20from%20the%20cursor%20position%20to%20the%20start%20of%20the%20next%20word"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "diw - Delete (Cut) Word Under Cursor"
+keywords = ["cut", "delete", "word under cursor", "diw"]
+value = "https://vim.rtorr.com/#:~:text=diw%20%2D%20delete%20%28cut%29%20word%20under%20the%20cursor"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "daw - Delete (Cut) Word with Space"
+keywords = ["cut", "delete", "word with space", "daw"]
+value = "https://vim.rtorr.com/#:~:text=daw%20%2D%20delete%20%28cut%29%20word%20under%20the%20cursor%20and%20the%20space%20after%20or%20before%20it"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":3,5d - Delete Lines From 3 to 5"
+keywords = ["delete", "multiple lines", ":3,5d"]
+value = "https://vim.rtorr.com/#:~:text=%3A3%2C5d%20%2D%20delete%20lines%20starting%20from%203%20to%205"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "d$ or D - Delete to End of Line"
+keywords = ["cut", "delete", "end of line", "d$", "D"]
+value = "https://vim.rtorr.com/#:~:text=d%24%20%20or%20%20D%20%2D%20delete%20%28cut%29%20to%20the%20end%20of%20the%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "x - Delete Character"
+keywords = ["cut", "delete", "character", "x"]
+value = "https://vim.rtorr.com/#:~:text=x%20%2D%20delete%20%28cut%29%20character"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ">> - Indent Line"
+keywords = ["indent", ">>"]
+value = "https://vim.rtorr.com/#:~:text=%3E%3E%20%2D%20indent%20%28move%20right%29%20line%20one%20shiftwidth"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "<< - De-indent Line"
+keywords = ["de-indent", "<<"]
+value = "https://vim.rtorr.com/#:~:text=%3C%3C%20%2D%20de-indent%20%28move%20left%29%20line%20one%20shiftwidth"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ">% - Indent Block"
+keywords = ["indent", "block", "() {}", ">%"]
+value = "https://vim.rtorr.com/#:~:text=%3E%25%20%2D%20indent%20a%20block%20with%20%28%29%20or%20%7B%7D%20%28cursor%20on%20brace%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "<% - De-indent Block"
+keywords = ["de-indent", "block", "() {}", "<%"]
+value = "https://vim.rtorr.com/#:~:text=%3C%25%20%2D%20de-indent%20a%20block%20with%20%28%29%20or%20%7B%7D%20%28cursor%20on%20brace%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ">ib - Indent Inner Block with ()"
+keywords = ["indent", "inner block", "()", ">ib"]
+value = "https://vim.rtorr.com/#:~:text=%3Eib%20%2D%20indent%20inner%20block%20with%20%28%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ">at - Indent Block with <> Tags"
+keywords = ["indent", "block", "tags", "<>", ">at"]
+value = "https://vim.rtorr.com/#:~:text=%3Eat%20%2D%20indent%20a%20block%20with%20%3C%3E%20tags"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "3== - Re-indent 3 Lines"
+keywords = ["re-indent", "multiple lines", "3=="]
+value = "https://vim.rtorr.com/#:~:text=3%3D%3D%20%2D%20re-indent%203%20lines"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "=% - Re-indent Block"
+keywords = ["re-indent", "block", "() {}", "=%"]
+value = "https://vim.rtorr.com/#:~:text=%3D%25%20%2D%20re-indent%20a%20block%20with%20%28%29%20or%20%7B%7D%20%28cursor%20on%20brace%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "=iB - Re-indent Inner Block with {}"
+keywords = ["re-indent", "inner block", "{}", "=iB"]
+value = "https://vim.rtorr.com/#:~:text=%3DiB%20%2D%20re-indent%20inner%20block%20with%20%7B%7D"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gg=G - Re-indent Entire Buffer"
+keywords = ["re-indent", "entire file", "gg=G"]
+value = "https://vim.rtorr.com/#:~:text=gg%3DG%20%2D%20re-indent%20entire%20buffer"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "]p - Paste and Adjust Indent"
+keywords = ["paste", "adjust indent", "]p"]
+value = "https://vim.rtorr.com/#:~:text=%5Dp%20%2D%20paste%20and%20adjust%20indent%20to%20current%20line"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":w - Write File"
+keywords = ["save", "write", ":w"]
+value = "https://vim.rtorr.com/#:~:text=%3Aw%20%2D%20write%20%28save%29%20the%20file%2C%20but%20don%27t%20exit"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":w !sudo tee % - Write File with Sudo"
+keywords = ["save", "write", "sudo", ":w !sudo tee %"]
+value = "https://vim.rtorr.com/#:~:text=%3Aw%20%21sudo%20tee%20%25%20%2D%20write%20out%20the%20current%20file%20using%20sudo"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":wq or :x or ZZ - Write and Quit"
+keywords = ["save", "write", "quit", "exit", ":wq", ":x", "ZZ"]
+value = "https://vim.rtorr.com/#:~:text=%3Awq%20%20or%20%20%3Ax%20%20or%20%20ZZ%20%2D%20write%20%28save%29%20and%20quit"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":q - Quit"
+keywords = ["quit", "exit", ":q"]
+value = "https://vim.rtorr.com/#:~:text=%3Aq%20%2D%20quit%20%28fails%20if%20there%20are%20unsaved%20changes%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":q! or ZQ - Force Quit"
+keywords = ["quit", "exit", "force", "discard changes", ":q!", "ZQ"]
+value = "https://vim.rtorr.com/#:~:text=%3Aq%21%20%20or%20%20ZQ%20%2D%20quit%20and%20throw%20away%20unsaved%20changes"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":wqa - Write and Quit All Tabs"
+keywords = ["save", "write", "quit", "exit", "all tabs", ":wqa"]
+value = "https://vim.rtorr.com/#:~:text=%3Awqa%20%2D%20write%20%28save%29%20and%20quit%20on%20all%20tabs"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "/pattern - Search for Pattern"
+keywords = ["search", "pattern", "/"]
+value = "https://vim.rtorr.com/#:~:text=/pattern%20%2D%20search%20for%20pattern"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "?pattern - Search Backward for Pattern"
+keywords = ["search", "backward", "pattern", "?"]
+value = "https://vim.rtorr.com/#:~:text=%3Fpattern%20%2D%20search%20backward%20for%20pattern"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "\\vpattern - Very Magic Search"
+keywords = ["search", "very magic", "regex", "\\\\v"]
+value = "https://vim.rtorr.com/#:~:text=%5Cvpattern%20%2D%20%27very%20magic%27%20pattern%3A%20non-alphanumeric%20characters%20are%20interpreted%20as%20special%20regex%20symbols%20%28no%20escaping%20needed%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "n - Repeat Search Forward"
+keywords = ["search", "repeat", "forward", "n"]
+value = "https://vim.rtorr.com/#:~:text=n%20%2D%20repeat%20search%20in%20same%20direction"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "N - Repeat Search Backward"
+keywords = ["search", "repeat", "backward", "N"]
+value = "https://vim.rtorr.com/#:~:text=N%20%2D%20repeat%20search%20in%20opposite%20direction"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":%s/old/new/g - Global Replace"
+keywords = ["replace", "global", "all", ":%s/old/new/g"]
+value = "https://vim.rtorr.com/#:~:text=%3A%25s/old/new/g%20%2D%20replace%20all%20old%20with%20new%20throughout%20file"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":%s/old/new/gc - Global Replace with Confirmation"
+keywords = ["replace", "global", "all", "confirmation", ":%s/old/new/gc"]
+value = "https://vim.rtorr.com/#:~:text=%3A%25s/old/new/gc%20%2D%20replace%20all%20old%20with%20new%20throughout%20file%20with%20confirmations"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":noh[lsearch] - Remove Search Highlighting"
+keywords = ["search", "highlighting", "remove", ":noh", ":nohlsearch"]
+value = "https://vim.rtorr.com/#:~:text=%3Anoh%5Blsearch%5D%20%2D%20remove%20highlighting%20of%20search%20matches"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":vim[grep] /pattern/ {`{file}`} - vim[grep]"
+keywords = ["search multiple files", "grep", "find in files", "vimgrep"]
+value = "https://vim.rtorr.com/#:~:text=%3Avim%5Bgrep%5D%20/pattern/%20%7B%60%7Bfile%7D%60%7D%20%2D%20search%20for%20pattern%20in%20multiple%20files%20%0Ae.g.%20%20%3Avim%5Bgrep%5D%20/foo/%20%2A%2A/%2A"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":cn[ext] - cn[ext]"
+keywords = ["next match", "search navigation", "cn", "cnext"]
+value = "https://vim.rtorr.com/#:~:text=%3Acn%5Bext%5D%20%2D%20jump%20to%20the%20next%20match"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":cp[revious] - cp[revious]"
+keywords = ["previous match", "search navigation", "cp", "cprevious"]
+value = "https://vim.rtorr.com/#:~:text=%3Acp%5Brevious%5D%20%2D%20jump%20to%20the%20previous%20match"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":cope[n] - cope[n]"
+keywords = ["open matches list", "quickfix", "search results", "cope", "copen"]
+value = "https://vim.rtorr.com/#:~:text=%3Acope%5Bn%5D%20%2D%20open%20a%20window%20containing%20the%20list%20of%20matches"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":ccl[ose] - ccl[ose]"
+keywords = ["close quickfix", "close matches list", "ccl", "cclose"]
+value = "https://vim.rtorr.com/#:~:text=%3Accl%5Bose%5D%20%2D%20close%20the%20quickfix%20window"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":tabnew  or  :tabnew {page.words.file} - tabnew"
+keywords = ["new tab", "open file in tab", "tabnew"]
+value = "https://vim.rtorr.com/#:~:text=%3Atabnew%20%20or%20%20%3Atabnew%20%7Bpage.words.file%7D%20%2D%20open%20a%20file%20in%20a%20new%20tab"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + wT - Move Split to Tab"
+keywords = ["move split to tab", "split window", "new tab from split", "ctrl+wt"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20wT%20%2D%20move%20the%20current%20split%20window%20into%20its%20own%20tab"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gt  or  :tabn[ext] - gt / :tabn[ext]"
+keywords = ["next tab", "tab navigation", "gt", "tabnext"]
+value = "https://vim.rtorr.com/#:~:text=gt%20%20or%20%20%3Atabn%5Bext%5D%20%2D%20move%20to%20the%20next%20tab"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "gT  or  :tabp[revious] - gT / :tabp[revious]"
+keywords = ["previous tab", "tab navigation", "gt", "tabprevious"]
+value = "https://vim.rtorr.com/#:~:text=gT%20%20or%20%20%3Atabp%5Brevious%5D%20%2D%20move%20to%20the%20previous%20tab"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "#gt - Go to Tab Number"
+keywords = ["go to tab number", "tab navigation", "specific tab"]
+value = "https://vim.rtorr.com/#:~:text=%23gt%20%2D%20move%20to%20tab%20number%20%23"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":tabm[ove] # - :tabm[ove]"
+keywords = ["move tab", "reorder tabs", "tabm", "tabmove"]
+value = "https://vim.rtorr.com/#:~:text=%3Atabm%5Bove%5D%20%23%20%2D%20move%20current%20tab%20to%20the%20%23th%20position%20%28indexed%20from%200%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":tabc[lose] - :tabc[lose]"
+keywords = ["close tab", "close current tab", "tabc", "tabclose"]
+value = "https://vim.rtorr.com/#:~:text=%3Atabc%5Blose%5D%20%2D%20close%20the%20current%20tab%20and%20all%20its%20windows"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":tabo[nly] - :tabo[nly]"
+keywords = ["close other tabs", "keep current tab", "tabo", "tabonly"]
+value = "https://vim.rtorr.com/#:~:text=%3Atabo%5Bnly%5D%20%2D%20close%20all%20tabs%20except%20for%20the%20current%20one"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":tabdo  command - :tabdo"
+keywords = ["execute command on all tabs", "tabdo", "multiple tabs"]
+value = "https://vim.rtorr.com/#:~:text=%3Atabdo%20%20command%2D%20run%20the%20%20command%20%20on%20all%20tabs%20%28e.g.%20%20%3Atabdo%20q%20%2D%20closes%20all%20opened%20tabs%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":e[dit] file - :e[dit]"
+keywords = ["edit file", "open file in buffer", "e", "edit"]
+value = "https://vim.rtorr.com/#:~:text=%3Ae%5Bdit%5D%20file%20%2D%20edit%20a%20file%20in%20a%20new%20buffer"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":bn[ext] - :bn[ext]"
+keywords = ["next buffer", "buffer navigation", "bn", "bnext"]
+value = "https://vim.rtorr.com/#:~:text=%3Abn%5Bext%5D%20%2D%20go%20to%20the%20next%20buffer"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":bp[revious] - :bp[revious]"
+keywords = ["previous buffer", "buffer navigation", "bp", "bprevious"]
+value = "https://vim.rtorr.com/#:~:text=%3Abp%5Brevious%5D%20%2D%20go%20to%20the%20previous%20buffer"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":bd[elete] - :bd[elete]"
+keywords = ["delete buffer", "close file", "bd", "bdelete"]
+value = "https://vim.rtorr.com/#:~:text=%3Abd%5Belete%5D%20%2D%20delete%20a%20buffer%20%28close%20a%20file%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":b[uffer]# - :b[uffer] #"
+keywords = ["go to buffer by index", "buffer number", "buffer navigation"]
+value = "https://vim.rtorr.com/#:~:text=%3Ab%5Buffer%5D%23%20%2D%20go%20to%20a%20buffer%20by%20index%20%23"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":b[uffer] file - :b[uffer] file"
+keywords = ["go to buffer by file", "buffer name", "buffer navigation"]
+value = "https://vim.rtorr.com/#:~:text=%3Ab%5Buffer%5D%20file%20%2D%20go%20to%20a%20buffer%20by%20file"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":ls  or  :buffers - :ls / :buffers"
+keywords = ["list buffers", "open buffers", "ls", "buffers"]
+value = "https://vim.rtorr.com/#:~:text=%3Als%20%20or%20%20%3Abuffers%20%2D%20list%20all%20open%20buffers"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":sp[lit] file - :sp[lit]"
+keywords = ["split window", "open file in split", "sp", "split"]
+value = "https://vim.rtorr.com/#:~:text=%3Asp%5Blit%5D%20file%20%2D%20open%20a%20file%20in%20a%20new%20buffer%20and%20split%20window"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":vs[plit] file - :vs[plit]"
+keywords = ["vertical split", "open file in vertical split", "vs", "vsplit"]
+value = "https://vim.rtorr.com/#:~:text=%3Avs%5Bplit%5D%20file%20%2D%20open%20a%20file%20in%20a%20new%20buffer%20and%20vertically%20split%20window"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":vert[ical] ba[ll] - :vert[ical] ba[ll]"
+keywords = ["vertical windows", "all buffers vertical", "vert ball", "vertical ball"]
+value = "https://vim.rtorr.com/#:~:text=%3Avert%5Bical%5D%20ba%5Bll%5D%20%2D%20edit%20all%20buffers%20as%20vertical%20windows"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":tab ba[ll] - :tab ba[ll]"
+keywords = ["all buffers as tabs", "tab ball"]
+value = "https://vim.rtorr.com/#:~:text=%3Atab%20ba%5Bll%5D%20%2D%20edit%20all%20buffers%20as%20tabs"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + ws - Split Window"
+keywords = ["split window", "horizontal split", "ctrl+ws"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20ws%20%2D%20split%20window"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + wv - Split Window Vertically"
+keywords = ["vertical split", "split window vertically", "ctrl+wv"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20wv%20%2D%20split%20window%20vertically"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + ww - Switch Windows"
+keywords = ["switch windows", "navigate splits", "ctrl+ww"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20ww%20%2D%20switch%20windows"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + wq - Quit Window"
+keywords = ["close window", "quit split", "ctrl+wq"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20wq%20%2D%20quit%20a%20window"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + wx - Exchange Windows"
+keywords = ["exchange windows", "swap splits", "ctrl+wx"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20wx%20%2D%20exchange%20current%20window%20with%20next%20one"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + w= - Equalize Window Sizes"
+keywords = ["equalize window sizes", "resize windows", "ctrl+w="]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20w%3D%20%2D%20make%20all%20windows%20equal%20height%20%26%20width"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + wh - Move to Left Window"
+keywords = ["move to left window", "vertical split navigation", "ctrl+wh"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20wh%20%2D%20move%20cursor%20to%20the%20left%20window%20%28vertical%20split%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + wl - Move to Right Window"
+keywords = ["move to right window", "vertical split navigation", "ctrl+wl"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20wl%20%2D%20move%20cursor%20to%20the%20right%20window%20%28vertical%20split%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + wj - Move to Window Below"
+keywords = ["move to window below", "horizontal split navigation", "ctrl+wj"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20wj%20%2D%20move%20cursor%20to%20the%20window%20below%20%28horizontal%20split%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + wk - Move to Window Above"
+keywords = ["move to window above", "horizontal split navigation", "ctrl+wk"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20wk%20%2D%20move%20cursor%20to%20the%20window%20above%20%28horizontal%20split%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + wH - Maximize Window Height (Left)"
+keywords = ["maximize window height", "full height window", "leftmost window", "ctrl+wh"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20wH%20%2D%20make%20current%20window%20full%20height%20at%20far%20left%20%28leftmost%20vertical%20window%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + wL - Maximize Window Height (Right)"
+keywords = ["maximize window height", "full height window", "rightmost window", "ctrl+wl"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20wL%20%2D%20make%20current%20window%20full%20height%20at%20far%20right%20%28rightmost%20vertical%20window%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + wJ - Maximize Window Width (Bottom)"
+keywords = ["maximize window width", "full width window", "bottommost window", "ctrl+wj"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20wJ%20%2D%20make%20current%20window%20full%20width%20at%20the%20very%20bottom%20%28bottommost%20horizontal%20window%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "Ctrl + wK - Maximize Window Width (Top)"
+keywords = ["maximize window width", "full width window", "topmost window", "ctrl+wk"]
+value = "https://vim.rtorr.com/#:~:text=Ctrl%20%20%2B%20%20wK%20%2D%20make%20current%20window%20full%20width%20at%20the%20very%20top%20%28topmost%20horizontal%20window%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "zf - zf"
+keywords = ["create fold", "manual fold", "fold to motion"]
+value = "https://vim.rtorr.com/#:~:text=zf%20%2D%20manually%20define%20a%20fold%20up%20to%20motion"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "zd - zd"
+keywords = ["delete fold", "remove fold"]
+value = "https://vim.rtorr.com/#:~:text=zd%20%2D%20delete%20fold%20under%20the%20cursor"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "za - za"
+keywords = ["toggle fold", "open/close fold"]
+value = "https://vim.rtorr.com/#:~:text=za%20%2D%20toggle%20fold%20under%20the%20cursor"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "zo - zo"
+keywords = ["open fold", "expand fold"]
+value = "https://vim.rtorr.com/#:~:text=zo%20%2D%20open%20fold%20under%20the%20cursor"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "zc - zc"
+keywords = ["close fold", "collapse fold"]
+value = "https://vim.rtorr.com/#:~:text=zc%20%2D%20close%20fold%20under%20the%20cursor"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "zr - zr"
+keywords = ["reduce folds", "open folds one level"]
+value = "https://vim.rtorr.com/#:~:text=zr%20%2D%20reduce%20%28open%29%20all%20folds%20by%20one%20level"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "zm - zm"
+keywords = ["fold more", "close folds one level"]
+value = "https://vim.rtorr.com/#:~:text=zm%20%2D%20fold%20more%20%28close%29%20all%20folds%20by%20one%20level"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "zi - zi"
+keywords = ["toggle folding", "enable/disable folding"]
+value = "https://vim.rtorr.com/#:~:text=zi%20%2D%20toggle%20folding%20functionality"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "]c - ]c"
+keywords = ["next change", "jump to change", "change navigation"]
+value = "https://vim.rtorr.com/#:~:text=%5Dc%20%2D%20jump%20to%20start%20of%20next%20change"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "[c - [c"
+keywords = ["previous change", "jump to change", "change navigation"]
+value = "https://vim.rtorr.com/#:~:text=%5Bc%20%2D%20jump%20to%20start%20of%20previous%20change"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "do  or  :diffg[et] - do / :diffg[et]"
+keywords = ["get diff", "obtain difference", "do", "diffget"]
+value = "https://vim.rtorr.com/#:~:text=do%20%20or%20%20%3Adiffg%5Bet%5D%20%2D%20obtain%20%28get%29%20difference%20%28from%20other%20buffer%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = "dp  or  :diffpu[t] - dp / :diffpu[t]"
+keywords = ["put diff", "apply difference", "dp", "diffput"]
+value = "https://vim.rtorr.com/#:~:text=dp%20%20or%20%20%3Adiffpu%5Bt%5D%20%2D%20put%20difference%20%28to%20other%20buffer%29"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":diffthis - :diffthis"
+keywords = ["include in diff", "diff current window", "diffthis"]
+value = "https://vim.rtorr.com/#:~:text=%3Adiffthis%20%2D%20make%20current%20window%20part%20of%20diff"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":dif[fupdate] - :dif[fupdate]"
+keywords = ["update diff", "refresh differences", "dif", "diffupdate"]
+value = "https://vim.rtorr.com/#:~:text=%3Adif%5Bfupdate%5D%20%2D%20update%20differences"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"
+
+[[entries]]
+text = ":diffo[ff] - :diffo[ff]"
+keywords = ["disable diff", "turn off diff mode", "diffo", "diffoff"]
+value = "https://vim.rtorr.com/#:~:text=%3Adiffo%5Bff%5D%20%2D%20switch%20off%20diff%20mode%20for%20current%20window"
+actions = { "open" = "xdg-open '%VALUE%'" }
+icon = "/home/clintonium-119/.local/share/icons/vim-cheatsheet.png"

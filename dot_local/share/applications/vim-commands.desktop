@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Vim Commands
+Comment=Search Vim commands from vim.rtorr.com
+Exec=walker -m menus:vim --width=1200
+Icon=/home/clintonium-119/.local/share/icons/vim-cheatsheet.png
+Terminal=false
+Type=Application
+Categories=Utility;Development;
+Keywords=vim;neovim;cheatsheet;commands;help;
